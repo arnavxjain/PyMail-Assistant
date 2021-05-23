@@ -13,3 +13,5 @@
 - First Name of the `reciever` will be automatically picked using the line after the designation of the `To` location
 - Create the `HTML` temmplate
 - Run the Program
+
+### Make sure to enable **less secure app access**. Without this, the app will not function
