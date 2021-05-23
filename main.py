@@ -11,19 +11,19 @@ import pandas as pd
 # Reading the xlsx file
 file = pd.read_excel('Email Excel File (xlsx)')
 
-# # Reading each column
+## Reading each column
 names = file.loc[:, "Name Column Header"].values
 mails = file.loc[:, "Email ID Column Header"].values
-
-# print(names)
-# print("-----------------------Break-----------------------")
-# print(mails)
 
 for x in range(len(names)):
     print(f'{names[x]}: {mails[x]}')
 
 # Storing the credentials
-## Make sure to enable 'Allow Less Secure Apps To Interfere' in the senders google account settings
+
+# ------------------------------------------------------------------------------------------
+## Make sure to enable 'Allow Less Secure Apps Access' in the senders google account settings
+# ------------------------------------------------------------------------------------------
+
 address = 'Sender Email Address'
 password = 'Sender Email Password'
 
