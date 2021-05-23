@@ -14,4 +14,4 @@
 - Create the `HTML` temmplate
 - Run the Program
 
-### Make sure to enable `less secure app access`. Without this, the app will not function
+### Make sure to enable `less secure app access` in your google account settings. Without this, the app will not function
