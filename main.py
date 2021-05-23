@@ -35,7 +35,7 @@ for x in range(len(names)):
     msg['subject'] = 'Invitation for Marketing Workshop'
     msg['From'] = address
     msg['To'] = mails[x]
-    fname = str(names[x].split()[0])
+    fname = str(names[x].split()[0]) # Only if wanted or necessary
     msg.add_alternative(
 
     # Adding the Body of the mail through HTML
