@@ -1,6 +1,6 @@
 ## PyMail-Assistant - The Next Gen Mail Assistant
 
-#### How To Runn 👇
+#### How To Run The Program 👇
 - You need to create a .py file that reads an excel sheet that has been attached to it using the `pandas` module. A file that looks like this
 
 ![image](https://user-images.githubusercontent.com/70736942/119271576-bdd82800-bc1f-11eb-9b9e-20e035d982be.png)
